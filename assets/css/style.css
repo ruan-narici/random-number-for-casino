@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+:root {
+    --colorBlack: #000000;
+    --colorBrown: #522406;
+    --colorWhite: #F7EEE8;
+    --colorGreen: #0F4124;
+    --colorGreenLight: #326435;
+    --colorRed: #A70C12;
+    --colorYellow: #F5CB4B;
+    --colorWhiteShadow: rgba(255,255,255,0.2);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(30deg, var(--colorBlack), var(--colorBrown));
+    background-attachment: fixed;
+    height: 100vh;
+    color: var(--colorWhite);
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    text-align: center;
+    padding: 90px 80px 0 80px;
+}
+
+.left-items,
+.right-items {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    position: relative;
+}
+
+.title-website {
+    font-size: 50px;
+    font-weight: bold;
+    width: 650px;
+    text-align: left;
+    text-shadow: -2px 2px 10px var(--colorWhiteShadow);
+}
+
+.desc-website {
+    font-size: 25px;
+    font-weight: lighter;
+    width: 500px;
+    text-align: left;
+    margin: 30px 0 160px 0;
+}
+
+.btn-generate {
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--colorWhite);
+    text-transform: uppercase;
+    background-color: var(--colorGreen);
+    width: 430px;
+    height: 55px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.btn-generate:hover {
+    background-color: var(--colorGreenLight);
+}
+
+.btn-generate:active {
+    border: 2px solid var(--colorWhite);
+}
+
+.img-roulette {
+    z-index: 0;
+}
+
+.box-numbers {
+    z-index: 1;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.first-number,
+.second-number {
+    font-size: 70px;
+    font-weight: bold;
+    background-color: var(--colorBlack);
+    width: 130px;
+    height: 130px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px var(--colorYellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.second-number {
+    background-color: var(--colorRed);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.box-footer {
+    background-color: var(--colorBlack);
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.developer {
+    font-size: 15px;
+}
+
+.developer a {
+    color: var(--colorWhite);
+    text-decoration: none;
+    transition: 0.5s all;
+}
+
+.developer a:hover {
+    color: var(--colorRed);
+}
+
+.hide {
+    display: none;
+}
