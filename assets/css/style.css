@@ -89,6 +89,22 @@ main {
     display: inline-flex;
     flex-wrap: wrap;
     gap: 150px;
+    animation: animateBox 1s infinite;
+    transition: 0.1s all;
+}
+
+@keyframes animateBox {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .first-number,
@@ -142,3 +158,4 @@ footer {
 .hide {
     display: none;
 }
+
