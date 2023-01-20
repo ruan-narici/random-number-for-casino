@@ -5,7 +5,7 @@
 | - | - |
 | :checkered_flag: STARTED IN | 19/01/2023 |
 | 	:white_check_mark: FINISHED IN | 19/01/2023 |
-| 	:gear: TECHNOLOGIES | Figma, HTML5, CSS3, Javascript |
+| 	:gear: TECNOLOGIAS | Figma, HTML5, CSS3, Javascript |
 | :globe_with_meridians: URL | https://ruan-narici.github.io/random-number-for-casino/ |
 
 
